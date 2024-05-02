@@ -1,4 +1,5 @@
-/* Navbar Section CSS Start */
+
+/* ===========Navbar Section CSS Start================= */
 .navbgcolor{
     background-color: #0B5ED7;
 }
@@ -14,19 +15,21 @@
     height: 50px; 
 }
 
+
 .ListOne{
     margin-right: 10px;
     color: white;
+    text-decoration: none;
 }
 
 .ListOne:hover{
     color: orange;
     transition: 0.5s;
 }
-/* Navbar Section CSS End */
+/* ==============Navbar Section CSS End================= */
 
 
-/* TopHeader Section CSS Start */
+/* ==============TopHeader Section CSS Start============= */
 .TopHeaderContainer{
     min-height: 550px;
     background-image: url(../images/myBackground.jpeg);
@@ -61,10 +64,10 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
-/* TopHeader Section CSS End */
+/* =============TopHeader Section CSS End================== */
 
 
-/* My Services Section CSS Start */
+/* =============My Services Section CSS Start============== */
 .ServicesContainer{
     min-height: 450px;
 }
@@ -78,6 +81,8 @@
 .CardOne, .CardTwo, .CardThree{
     padding-left:20px;
     padding-right: 20px;
+    height: 320px;
+    width: 350px;
       
 }
 
@@ -101,7 +106,7 @@
 }
 
 .iconOne, .iconTwo, .iconThree{
-    font-size: 130px;
+    font-size: 120px;
     padding-top: 40px;
     margin: 0 auto;
     color: #0074E6;
@@ -117,12 +122,12 @@
 .FirstContentSubHeading, .SecondContentSubHeading, .ThirdContentSubHeading{
     font-size: 15px;
     color: rgba(31, 29, 29, 0.795);
-    padding-bottom: 40px;
+    padding-top: 5px;
 }
 /* My Services Section CSS End */
 
 
-/* Technology Used Section CSS Start */
+/* ==========Technology Used Section CSS Start========== */
 .TechnologyContainer{
     min-height: 600px;
 }
@@ -137,12 +142,12 @@
     font-size: 15px;
     color: rgba(31, 29, 29, 0.795);
 }
-/* Technology Used Section CSS End */
+/* ============Technology Used Section CSS End=========== */
 
 
-/* Total Works Section CSS Start */
+/* ============Total Works Section CSS Start============= */
 .TotalWorksContainer{
-    min-height: 350px;
+    min-height: 380px;
     background-image: url(../images/myBackground.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -150,13 +155,13 @@
 }
 
 .TopWorksOvarlay{
-    min-height: 350px;
+    min-height: 380px;
     width: 100%;
     background-color: #4C4C4C;
 }
 
 .ProjectsCollum, .ClientsCollum{
-    padding-top: 10%;
+    padding-top: 8%;
 }
 
 .TotalProjects, .TotalClients{
@@ -177,7 +182,7 @@
 }
 
 .WorksCard{
-    margin-top: 16%;
+    margin-top: 10%;
 }
 
 .WorksCard:hover{
@@ -209,10 +214,10 @@
     color: rgba(31, 29, 29, 0.795);
 }
 
-/* Total Works Section CSS End */
+/* ==========Total Works Section CSS End=============== */
 
 
-/* Recent Project Section CSS Start */
+/* ==========Recent Project Section CSS Start========= */
 .RecentProjectContainer{
     min-height: 650px;
 }
@@ -240,10 +245,10 @@
     transition: 0.8s ease all;
     border: 1px solid #0073e679;
 }
-/* Recent Project Section CSS End */
+/* ===========Recent Project Section CSS End============= */
 
 
-/* Our Courses Section CSS Start */
+/* ===========Our Courses Section CSS Start============== */
 .OurCoursesContainer{
     min-height: 650px;
 }
@@ -275,7 +280,7 @@
 /* Our Courses Section CSS end */
 
 
-/* Vedio Section CSS Start */
+/* ================Vedio Section CSS Start============== */
 .VedioSectionContainer{
     min-height: 500px;
     padding: 100px;
@@ -299,10 +304,10 @@
     color: #0074E6;
     cursor: pointer;
 }
-/* Vedio Section CSS End */
+/* ==========Vedio Section CSS End===================== */
 
 
-/* Client Review Section CSS Start */
+/* ===========Client Review Section CSS Start============ */
 .ClientReviewContainer{
     min-height: 500px;
     padding: 100px;
@@ -319,10 +324,10 @@
     font-size: 15px;
     color: rgba(31, 29, 29, 0.795);
 }
-/* Client Review Section CSS End */
+/* ===========Client Review Section CSS End=========== */
 
 
-/* Footer Top Section CSS Start */
+/* ===========Footer Top Section CSS Start============ */
 .FooterTopContainer{
     min-height: 200px;
 }
@@ -364,4 +369,108 @@
     width: 100%;
     background-color: #0074E6;
 }
-/* Footer Top Section CSS End */
+/* =========Footer Top Section CSS End================ */
+
+/* =========Common Header Section CSS Start=========== */
+
+.HeaderCommonContainer{
+    min-height: 280px;
+    background-image: url(../images/sirvice.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.CommonOverlay{
+    min-height: 280px;
+    width: 100%;
+    background-color: #181717c7;
+}
+/* ========= Common Header Section CSS End =========== */
+
+/* ========= Service Common Section CSS Start =========== */
+.ServiceFormContainer{
+    min-height: 500px;
+}
+
+.ServiceHeaderTop{
+    font-size: 30px;
+    margin-top: 130px;
+    color: white;
+}
+
+.messageBox{
+    height: 150px;
+    width: 100%;
+}
+
+/* ========= Service Common Section CSS End =========== */
+
+/* ========= About Myself Section CSS Start =========== */
+.myHeader{
+    font-size: 30px;
+}
+
+.myEmptyLine{
+    width: 100%;
+    height: 1px;
+    background-color: rgba(233, 222, 222, 0.849);
+}
+
+.myContent{
+    font-size: 15px;
+    color: rgba(31, 29, 29, 0.795);
+}
+
+/* ========= About Myself Section CSS End ============== */
+
+
+
+/* ==================Enimation Part=================== */
+
+/* ============Common Header Enimataion CSS Start============= */
+.ServiceHeaderTop{
+    display: inline-block;
+    border-right: 1px gray;
+    width: 17%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+            typing 1s steps(11),
+            cursor 10s step-end infinite alternate;
+
+}
+
+@keyframes cursor{ 
+    50% {border-color: transparent;}
+}
+
+@keyframes typing {
+    from { width: 0;}
+}
+
+/* ============Common Header Enimataion CSS End============= */
+
+/* ============Top Header Enimataion CSS Start============= */
+.TopHeading{
+    /* background-color: red; */
+    display: inline-block;
+    border-right: 1px gray;
+    width: 50%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+            typing 1s steps(11),
+            cursor 10s step-end infinite alternate;
+
+}
+
+@keyframes cursor{ 
+    50% {border-color: transparent;}
+}
+
+@keyframes typing {
+    from { width: 0;}
+}
+
+/* ============Top Header Enimataion CSS End============= */

@@ -2,6 +2,7 @@ import React, {Fragment, useEffect, useState } from 'react';
 import {Navbar, Container, Nav} from 'react-bootstrap'
 import '../../asset/css/style.css';
 import logo from '../../asset/images/logo.png'
+import {NavLink} from 'react-router-dom';
 
 
     const NavBars =() => {
@@ -21,17 +22,17 @@ import logo from '../../asset/images/logo.png'
                     <Navbar fixed='top' expand="lg" className={` ${sticky? 'navbgcolor': ''}`} >
 
                         <Container className='NavContainer' >
-                            <Navbar.Brand  className='Logos' href="#"><img src={logo} alt=''></img></Navbar.Brand>
+                            <NavLink to="/"  className='Logos' ><img src={logo} alt=''></img></NavLink>
                             <Navbar.Toggle aria-controls="navbarScroll" />
                             <Navbar.Collapse id="navbarScroll">
 
                                 <Nav className=" navlist ms-auto">
-                                    <Nav.Link href="#action1" className='ListOne'>HOME</Nav.Link>
-                                    <Nav.Link href="#action2" className='ListOne'>SERVICES</Nav.Link>
-                                    <Nav.Link href="#action3" className='ListOne'>COURSES</Nav.Link>
-                                    <Nav.Link href="#action4" className='ListOne'>PORTFOLIO</Nav.Link>
-                                    <Nav.Link href="#action5" className='ListOne'>CONTACT</Nav.Link>
-                                    <Nav.Link href="#action6" className='ListOne'>ABOUT</Nav.Link>
+                                    <NavLink to="/" style={({ isActive, isPending }) => { return {color:isActive ? "orange": "inherit" }}}   className='ListOne'>HOME</NavLink>
+                                    <NavLink to="/Service" style={({ isActive, isPending }) => { return {color:isActive ? "orange": "inherit" }}}   className='ListOne'>SERVICES</NavLink>
+                                    <NavLink to="/Course"  style={({ isActive, isPending }) => { return {color:isActive ? "orange": "inherit" }}}  className='ListOne'>COURSES</NavLink>
+                                    <NavLink to="/Portfolio" style={({ isActive, isPending }) => { return {color:isActive ? "orange": "inherit" }}}   className='ListOne'>PORTFOLIO</NavLink>
+                                    <NavLink to="/Contact"  style={({ isActive, isPending }) => { return {color:isActive ? "orange": "inherit" }}}  className='ListOne'>CONTACT</NavLink>
+                                    <NavLink to="/About"  style={({ isActive, isPending }) => { return {color:isActive ? "orange": "inherit" }}}  className='ListOne'>ABOUT</NavLink>
                                 </Nav>
 
                             </Navbar.Collapse>

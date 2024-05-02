@@ -10,7 +10,7 @@ class TopHeader extends Component {
                     <Container className='TopHeaderContainer p-0' fluid>
                         <Container className='TopOverlay' fluid>
                             <Row className='text-center'>
-                                <Col className='HeaderContent'>
+                                <Col className='HeaderContent' >
                                 <h1 className='TopHeading'>SOFTWARE ENGINEER</h1>
                                 <h3 className='TopSubHeading'>Mobile & Web Application</h3>
                                 <Button variant="primary" className='TopButton'>More Info</Button>{' '}

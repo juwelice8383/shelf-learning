@@ -78,7 +78,7 @@ class ClientReview extends Component {
                 </Row>
 
                 <Row className='SliderRow'>
-                    <Col>
+                    <Col lg={4} md={6} sm={12}>
                     <img className='SliderImage m-auto' src={SliderLogoOne} alt='' width={250}></img>
                     <h3 className='ReviewHeading'>Web Development</h3>
                     <p className='ClientReviewContent'>I desire modern interface and other graphical components for your business and institution components for your business.I desire modern interface and other graphical components for your business and institution components for your business.</p>

@@ -49,7 +49,7 @@ class TotalWorks extends Component {
                                 </Col>
 
                                 <Col>
-                                    <Card  className='WorksCard' style={{ width: '18rem' }}>
+                                    <Card  className='WorksCard' style={{ width: '18rem', height:'14rem' }}>
                                         <Card.Body className='TotalWorksCardBody'>
                                             <Card.Title className='WorksHeader'>How I work</Card.Title>
                                             <Card.Text>
